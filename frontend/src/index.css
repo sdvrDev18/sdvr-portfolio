@@ -75,7 +75,6 @@ select {
 
 :root {
   --font-base: "DM Sans", sans-serif;
-
   --primary-color: #edf2f8;
   --secondary-color: #313bac;
   --black-color: #030303;
@@ -90,4 +89,25 @@ select {
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+}
+
+/* CSS for the overall page */
+
+.app {
+  background-color: var(--primary-color);
+  font-family: var(--font-base);
+}
+
+.app__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-text {
+/* media query not created for this */
+  font-size: 0.8rem;
+  text-align: left;
+  color: var(--gray-color);
+  line-height: 1.5;
 }
